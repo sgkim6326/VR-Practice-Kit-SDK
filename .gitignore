@@ -1,3 +1,14 @@
+# OS Generated
+# ============
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -5,8 +16,8 @@
 [Bb]uilds/
 [Ll]ogs/
 
-# Uncomment this line if you wish to ignore the asset store tools plugin
-# [Aa]ssets/AssetStoreTools*
+# 깃허브 플러그인 및 MRTK 자동 생성 폴더 제거
+[Aa]ssets/Plugins/
 
 # Visual Studio cache directory
 .vs/
