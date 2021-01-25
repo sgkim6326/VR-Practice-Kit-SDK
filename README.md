@@ -8,6 +8,7 @@ VR Practice Kit SDK는 SOFTGROUND Inc의 VR Practice Kit을 Unity에서 사용�
 
 ## 설치 방법
 ### 1. SDK 다운로드
+
 ### 2. 프로젝트 설정
 ### 3. SDK 시작
 
