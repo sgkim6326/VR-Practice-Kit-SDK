@@ -21,6 +21,15 @@ Hirarchy 창의 VRKitManager를 선택한 뒤, VR Practice Kit 제품에 포함�
 프로젝트를 시작하면 VR Practice Kit의 연결 상태에 따른 음성 안내를 확인할 수 있습니다.
 ## 지원 기능
 ### 1. 연결 상태 확인 기능
+Hirarchy 창의 VRKitManager를 선택한 뒤, Inspector 창에서 다음 그림과 같은 변수에 음성 파일을 배치하면 연결 상태에 따라서 음성 안내가 제공됩니다.
+변수의 값을 비워두면 소리가 재생되지 않으며, 기본적으로 포함된 음성 안내는 [Typecast](https://typecast.ai/)를 사용하였습니다.
+![설명5](https://user-images.githubusercontent.com/48825287/105769268-ee28f600-5fa0-11eb-9a38-fb741eeb4dfe.png) 
+|변수|설명|
+|------|---|
+|Start Connection Sound|VR Practice Kit와 연결을 시작할 때의 음성 안내|
+|Connection Sucess Sound|연결이 성공할 때의 음성 안내|
+|Connection Failed Sound|연결이 실패할 떄의 음성 안내|
+|Disconnected Sound|연결이 해제되었을 때의 음성 안내|
 ### 2. 조이스틱 기능
 ### 3. (구현 예정)IMU 기반 회전 기능
 
