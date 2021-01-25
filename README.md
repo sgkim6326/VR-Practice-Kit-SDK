@@ -32,7 +32,7 @@ Hirarchy 창의 VRKitManager를 선택한 뒤, Inspector 창에서 다음 그림
 |Disconnected Sound|연결이 해제되었을 때의 음성 안내|
 ### 2. 조이스틱 기능
 Unity의 Input과 유사하게 사용할 수 있습니다.
-`
+```
 using VRKit
 ...
 void Update(){
@@ -40,5 +40,5 @@ void Update(){
    float input_horizontal = VRKitCore.GetAxis("Horizontal");
    bool input_key = VRKitCore.GetKeyDown();
 }
-`
+```
 ### 3. (구현 예정)IMU 기반 회전 기능
