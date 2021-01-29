@@ -13,10 +13,6 @@ namespace VRKit
             base.OnInspectorGUI();
             VRKitCore core = (VRKitCore)target;
             core.GetComponent<AudioSource>().hideFlags = HideFlags.HideInInspector;
-            core.ConnectionFailedSound.hideFlags = HideFlags.HideInInspector;
-            core.ConnectionSucessSound.hideFlags = HideFlags.HideInInspector;
-            core.DisconnectedSound.hideFlags = HideFlags.HideInInspector;
-            core.StartConnectionSound.hideFlags = HideFlags.HideInInspector;
         }
     }
 
