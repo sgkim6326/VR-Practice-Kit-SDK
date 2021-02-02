@@ -73,3 +73,6 @@ void Update(){
 |메소드|설명|
 |------|---|
 |VRKitCore.GetRotation()|회전 값을 반환(Quaternion)|
+
+## 출처
+* 블루투스 통신 기능은 https://knightk.tistory.com/39 를 참조하였습니다.
