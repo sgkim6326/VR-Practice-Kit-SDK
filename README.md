@@ -50,6 +50,7 @@ Hirarchy 창의 VRKitManager를 선택한 뒤, Inspector 창에서 다음 그림
 |Disconnected Sound|연결이 해제되었을 때의 음성 안내|
 
 ### 2. 조이스틱 기능
+VR-Practice-Kit 내 조이스틱의 값을 추적합니다.
 Unity의 Input과 유사하게 사용할 수 있습니다.
 ```
 using VRKit
@@ -60,4 +61,20 @@ void Update(){
    bool input_key = VRKitCore.GetKeyDown();
 }
 ```
-### 3. (구현 예정)IMU 기반 회전 기능
+|메소드|설명|
+|------|---|
+|VRKitCore.GetAxis("Vertical")|조이스틱의 Y축 조작 시, -1부터 1의 값을 반환|
+|VRKitCore.GetAxis("Horizontal")|조이스틱의 X축 조작 시, -1부터 1의 값을 반환|
+|VRKitCore.GetKeyDown()|조이스틱의 버튼 클릭 시, bool 값을 반환|
+### 3. IMU 기반 회전 추적 기능
+VR-Practice-Kit 내 IMU를 이용하여 회전 값을 추적합니다.
+```
+using VRKit
+...
+void Update(){
+   transform.localRotation = VRKitCore.GetRotation();
+}
+```
+|메소드|설명|
+|------|---|
+|VRKitCore.GetRotation()|회전 값을 반환(Quaternion)|
