@@ -66,7 +66,7 @@ void Update(){
 |VRKitCore.GetAxis("Vertical")|조이스틱의 Y축 조작 시, -1부터 1의 값을 반환|
 |VRKitCore.GetAxis("Horizontal")|조이스틱의 X축 조작 시, -1부터 1의 값을 반환|
 |VRKitCore.GetKeyDown()|조이스틱의 버튼 클릭 시, bool 값을 반환|
-### 3. IMU 기반 회전 추적 기능
+### 3. IMU 기반 회전 추적 기능(SDK v1.2 이상, 펌웨어 f1.1 이상)
 VR-Practice-Kit 내 IMU를 이용하여 회전 값을 추적합니다.
 ```
 using VRKit
