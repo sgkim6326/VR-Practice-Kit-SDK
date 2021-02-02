@@ -10,6 +10,7 @@ VR Practice Kit SDK는 SOFTGROUND Inc의 VR Practice Kit을 Unity에서 사용�
 
 ### 1. SDK 다운로드
 우측의 [Releases](https://github.com/sgkim6326/VR-Practice-Kit-SDK/releases)를 선택합니다.
+
 VR-Practice-Kit-SDK.unitypackage를 선택하여 SDK를 다운로드 합니다.
 
 ### 2. 프로젝트 설정
