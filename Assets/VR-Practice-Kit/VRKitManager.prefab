@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: -1262961129, guid: 14d7638d9e1526f40927a08874ef6fb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deviceName: VR17
+  deviceName: 
   StartConnectionSound: {fileID: 8300000, guid: d64f1d0d2f7d05240b9f96e8dc51bcc9,
     type: 3}
   ConnectionSucessSound: {fileID: 8300000, guid: df6ba27648d1f7a4188c85b274ba9cf9,

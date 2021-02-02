@@ -17,7 +17,7 @@ ehthumbs.db
 [Ll]ogs/
 
 # 깃허브 플러그인 및 MRTK 자동 생성 폴더 제거
-[Aa]ssets/Plugins/
+[Aa]ssets/Plugins/GitHub
 
 # Visual Studio cache directory
 .vs/

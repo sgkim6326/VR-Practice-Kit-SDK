@@ -588,6 +588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VRKitManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2739772966265527208, guid: 5ca9b4cacbf287042b06ed06935736d9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6272532140779157332, guid: 5ca9b4cacbf287042b06ed06935736d9,
         type: 3}
       propertyPath: m_RootOrder
@@ -642,6 +647,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7066449036102064974, guid: 5ca9b4cacbf287042b06ed06935736d9,
+        type: 3}
+      propertyPath: deviceName
+      value: VR17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ca9b4cacbf287042b06ed06935736d9, type: 3}
