@@ -30,7 +30,7 @@ Hirarchy 창의 VRKitManager를 선택한 뒤, VR Practice Kit 제품에 포함�
 
 ## 지원 기능
 
-### 1. 연결 상태 확인 기능
+### 1. 음성 안내 기능
 Hirarchy 창의 VRKitManager를 선택한 뒤, Inspector 창에서 다음 그림과 같은 변수에 음성 파일을 배치하면 연결 상태에 따라서 음성 안내가 제공됩니다.
 변수의 값을 비워두면 소리가 재생되지 않지만, 로그를 통해 확인이 가능합니다.
 
@@ -61,7 +61,7 @@ void Update(){
 |VRKitCore.GetAxis("Vertical")|조이스틱의 Y축 조작 시, -1부터 1의 값을 반환|
 |VRKitCore.GetAxis("Horizontal")|조이스틱의 X축 조작 시, -1부터 1의 값을 반환|
 |VRKitCore.GetKeyDown()|조이스틱의 버튼 클릭 시, bool 값을 반환|
-### 3. IMU 기반 회전 추적 기능(SDK v1.2 이상, 펌웨어 f1.1 이상)
+### 3. 회전 추적 기능(SDK v1.2 이상, 펌웨어 f1.1 이상)
 VR-Practice-Kit 내 IMU를 이용하여 회전 값을 추적합니다.
 ```
 using VRKit
