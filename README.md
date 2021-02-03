@@ -1,7 +1,7 @@
 # (공개용)VR Practice Kit SDK
 
 VR Practice Kit SDK는 SOFTGROUND Inc의 VR Practice Kit을 Unity에서 사용할 수 있도록 돕는 라이브러리입니다.
-
+[소개 영상](https://youtu.be/tLk9TbHquNY)
 ## 지원환경
 * Unity 2018 버전 이상
 * 윈도우 10, IOS, Android, MAC
