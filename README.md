@@ -4,7 +4,7 @@ VR Practice Kit SDK는 SOFTGROUND Inc의 VR Practice Kit을 Unity에서 사용�
 
 ## 지원환경
 * Unity 2018 버전 이상
-* 윈도우 10, IOS, Android
+* 윈도우 10, IOS, Android, MAC
 
 ## 설치 방법
 
@@ -32,7 +32,7 @@ Hirarchy 창의 VRKitManager를 선택한 뒤, VR Practice Kit 제품에 포함�
 
 ### 1. 연결 상태 확인 기능
 Hirarchy 창의 VRKitManager를 선택한 뒤, Inspector 창에서 다음 그림과 같은 변수에 음성 파일을 배치하면 연결 상태에 따라서 음성 안내가 제공됩니다.
-변수의 값을 비워두면 소리가 재생되지 않으며, 기본적으로 포함된 음성 안내는 [Typecast](https://typecast.ai/)를 사용하였습니다.
+변수의 값을 비워두면 소리가 재생되지 않지만, 로그를 통해 확인이 가능합니다.
 
 ![설명5](https://user-images.githubusercontent.com/48825287/105769268-ee28f600-5fa0-11eb-9a38-fb741eeb4dfe.png) 
 
@@ -76,3 +76,4 @@ void Update(){
 
 ## 출처
 * 블루투스 통신 기능은 https://knightk.tistory.com/39 를 참조하였습니다.
+* 기본적으로 포함된 음성 안내는 [Typecast](https://typecast.ai/)를 사용하였습니다.
