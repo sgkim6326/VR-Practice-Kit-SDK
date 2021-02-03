@@ -12,10 +12,10 @@ public class JoystickTest : MonoBehaviour
 
         var input_jump = VRKitCore.GetKeyDown();
 
-        input_vertical = input_vertical * Time.deltaTime;
+        input_vertical = input_vertical * Time.deltaTime * 3;
         input_horizontal = input_horizontal * Time.deltaTime * 100;
 
-        transform.Translate(transform.forward * input_vertical);
+        transform.Translate(transform.forward * input_vertical, Space.World);
         transform.Rotate(transform.up * input_horizontal);
 
         if (input_jump)
