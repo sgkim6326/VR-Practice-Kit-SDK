@@ -13,6 +13,10 @@ public class IMUTest : MonoBehaviour
         {
             CalibrationSystem.LookAt(Camera.main.transform.position - Camera.main.transform.right, - Camera.main.transform.up);
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }
 
